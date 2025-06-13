@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<!--#include virtual="/common/inc/meta.html"-->
+
+<title><!--#include virtual="/ssi/blog_archives_list.php?para=archive"--> <!--#include virtual="../ssi/get_seo.php?seo=title"--></title>
+<meta name="keywords" content="<!--#include virtual="/ssi/blog_archives_list.php?para=archive"-->,<!--#include virtual="../ssi/get_seo.php?seo=keyword"-->">
+<meta name="description" content="<!--#include virtual="/ssi/blog_archives_list.php?para=archive"-->。<!--#include virtual="../ssi/get_seo.php?seo=description"-->">
+<!--#include virtual="/common/inc/link.html"-->
+
+<link rel="preload" href="img/title.jpg" as="image">
+<link rel="preload" href="/common/css/cmn_subpage.css" as="style">
+<!-- only this page -->
+<link rel="stylesheet" href="/common/css/cmn_subpage.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- /only this page -->
+
+<!--#include virtual="/common/inc/ga.html"-->
+
+</head>
+
+
+
+<body class="subpage">
+<!--#include virtual="/common/inc/ga_body.html"-->
+
+<header>
+	<p id="seo"><span><!--#include virtual="/ssi/blog_archives_list.php?para=archive"-->の記事一覧｜<!--#include virtual="../ssi/get_seo.php?seo=p"--></span></p>
+	<!--#include virtual="/common/inc/header.html"-->
+
+</header>
+
+
+<div id="wrap">
+
+<div class="title animation" style="background-image:url(img/title.jpg)">
+
+	<div class="title_text">
+			<div class="title_text_inner animation">
+				<em>かさま歯科クリニック<br />院長ブログ</em>
+				<small>Blog</small>
+			</div>
+	</div>
+
+
+</div>
+
+
+<div class="Breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+		<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">かさま歯科クリニック</span></a><meta itemprop="position" content="1" /></span>
+		<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/blog/"><span itemprop="name">かさま歯科クリニック院長ブログ</span></a><meta itemprop="position" content="2" /></span>
+		<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name"><!--#include virtual="/ssi/blog_archives_list.php?para=archive"-->の記事一覧</span><meta itemprop="position" content="3" /></span>
+	</div>
+
+
+<article>
+
+
+
+	<section class="blog_page animation">
+
+		<h1 class="sect_ttl animation">
+			<em><!--#include virtual="/ssi/blog_archives_list.php?para=archive"-->の記事一覧</em>
+			<small>Archive</small>
+		</h1>
+
+
+
+		<div class="blog_article">
+
+			<div class="blog_main">
+
+          <!--#include virtual="/ssi/blog_archives_list.php"-->
+
+			</div>
+
+          <!--#include virtual="/common/inc/sub.html"-->
+
+		</div><!-- blog_block -->
+
+	</section>
+</article>
+
+
+<!--#include virtual="/common/inc/footer.html"-->
+
+</div>
+<!-- wrap -->
+
+
+
+
+
+
+<!--#include virtual="/common/inc/spmenu.html"-->
+<!--#include virtual="/common/inc/script.html"-->
+
+
+<!-- only this page -->
+<script>
+
+
+
+
+</script>
+<!-- /only this page -->
+
+
+    </body>
+</html>
