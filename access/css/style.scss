@@ -1,0 +1,176 @@
+@charset "utf-8";
+@import "../../common/css/function";
+
+@media screen and (max-width:740px)  {
+.title{
+	background-image: url(../img/title@sp.jpg) !important;
+}
+}//media
+
+
+
+.subpage{
+
+	.googlemap{
+		width: 100%;
+		height: 600px;
+		position: relative;
+		margin-bottom: 80px;
+
+		iframe{
+			@include cover;
+		}
+	}
+
+	.list_tabel{
+		margin-bottom: 50px;
+	}
+
+	section{
+		.consultation{
+			position: relative;
+
+		  .consultation_table{
+			  width: 100%;
+			  table-layout: fixed;
+
+			  thead{
+				  tr{
+					  th{
+						  height: 30px;
+						  font-weight: 400;
+						  border-bottom: #e2e1d5 solid 1px;
+						  text-align: center;
+					  }
+					  th:first-child{
+						  padding-left: 12px;
+						  text-align: left;
+					  }
+				  }
+			  }
+			  tbody{
+				  tr{
+					  td{
+						  height: 50px;
+						  font-weight: 400;
+						  font-size: 1.5rem;
+						  text-align: center;
+						  vertical-align: middle;
+						  border-bottom: #e2e1d5 solid 1px;
+
+
+					  }
+					  td:first-child{
+						  padding-left: 12px;
+						  text-align: left;
+					  }
+				  }
+			  }
+
+			  tfoot{
+				  tr{
+					  td{
+						  text-align: right;
+						  font-size: 1.2rem;
+						  padding-top: 10px;
+					  }
+				  }
+			  }
+		  }
+		  .btnbox{
+			  position: absolute;
+			  right: 0;
+			  bottom: 0;
+			  display: flex;
+			  justify-content: flex-end;
+			  align-items: center;
+
+				a + a{
+					margin-left: 15px;
+				}
+		  }
+
+	  }
+	}
+}
+
+
+
+@media screen and (max-width:740px)  {
+
+.subpage{
+
+	.googlemap{
+		width: 100%;
+		height: 300px;
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.list_tabel{
+		margin-bottom: 30px;
+	}
+
+	section{
+		.consultation{
+			position: relative;
+			margin-top: 25px;
+
+		  .consultation_table{
+			  width: 100%;
+
+			  thead{
+				  tr{
+					  th{
+						  height: 20px;
+						  font-size: 1rem;
+					  }
+					  th:first-child{
+						  padding-left:0px;
+					  }
+				  }
+			  }
+			  tbody{
+				  tr{
+					  td{
+						  height: 40px;
+						  font-size: 1rem;
+
+
+					  }
+					  td:first-child{
+						  padding-left: 0;
+						  text-align: left;
+					  }
+				  }
+			  }
+
+			  tfoot{
+				  tr{
+					  td{
+						  text-align: right;
+						  font-size: 1rem;
+						  padding-top: 10px;
+					  }
+				  }
+			  }
+		  }
+		  .btnbox{
+			  margin-top: 15px;
+			  position:static;
+			  flex-direction: column;
+
+				a + a{
+					margin-left: auto;
+					margin-top: 15px;
+				}
+		  }
+
+	  }
+	}
+}
+
+}//media
+
+
+
