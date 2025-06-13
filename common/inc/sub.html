@@ -1,0 +1,27 @@
+
+
+			<div class="blog_side animation">
+				<h3 class="heading">最新記事</h3>
+				<div class="blog_side_items">
+					<ul>
+    <!--#include virtual="/ssi/blog_new_list.php"-->
+					</ul>
+				</div>
+				<h3 class="heading">カテゴリー</h3>
+				<div class="blog_side_items">
+					<ul>
+    <!--#include virtual="/ssi/blog_category.php"-->
+					</ul>
+				</div>
+				<h3 class="heading">月別アーカイブ</h3>
+				<div class="blog_side_items">
+					<div class="selectBox">
+      <select name="月間アーカイブ" onChange="(function(rr){r=rr.value;rr.selectedIndex = 0;location.href=r;}(this))" class="l-side_archive_select">
+          <option value="">選択してください</option>
+          <!--#include virtual="/ssi/blog_archives.php"-->
+      </select>
+					</div>
+				</div>
+			</div>
+
+

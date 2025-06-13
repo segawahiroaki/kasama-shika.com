@@ -1,0 +1,22 @@
+@media screen and (max-width: 740px) {
+  .title {
+    background-image: url(../img/title@sp.jpg) !important;
+  }
+}
+
+.gray_box_inner ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gray_box_inner ul li {
+  width: 50%;
+}
+
+@media screen and (max-width: 740px) {
+  .gray_box_inner ul li {
+    width: 100%;
+  }
+}

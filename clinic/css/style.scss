@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import "../../common/css/function";
+
+@media screen and (max-width:740px)  {
+.title{
+	background-image: url(../img/title@sp.jpg) !important;
+}
+}//media
+
+
+
+.gray_box_inner{
+	ul{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+
+		li{
+			width: 50%;
+		}
+	}
+}
+
+
+@media screen and (max-width:740px)  {
+
+.gray_box_inner{
+	ul{
+		li{
+			width: 100%;
+		}
+	}
+}
+
+}//media

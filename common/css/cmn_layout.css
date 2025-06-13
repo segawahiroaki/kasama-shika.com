@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, em, strong{
+    font-weight: 500;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.switch {
+	visibility: hidden;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:
+	 url('fonts/icomoon.woff2?py3fnt') format('woff2'),
+	 url('fonts/icomoon.ttf?py3fnt') format('truetype'),
+	 url('fonts/icomoon.woff?py3fnt') format('woff'),
+	 url('fonts/icomoon.svg?py3fnt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "\e91f";
+}
+.icon-arrow-down:before {
+  content: "\e920";
+}
+.icon-logo:before {
+  content: "\e91e";
+}
+.icon-trouble19:before {
+  content: "\e91c";
+}
+.icon-trouble20:before {
+  content: "\e91d";
+}
+.icon-window:before {
+  content: "\e91b";
+}
+.icon-fb:before {
+  content: "\e903";
+}
+.icon-top:before {
+  content: "\e919";
+}
+.icon-circle:before {
+  content: "\e917";
+}
+.icon-calendar:before {
+  content: "\e918";
+}
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-mail:before {
+  content: "\e901";
+}
+.icon-tel:before {
+  content: "\e902";
+}
+.icon-trouble01:before {
+  content: "\e904";
+}
+.icon-trouble02:before {
+  content: "\e905";
+}
+.icon-trouble03:before {
+  content: "\e906";
+}
+.icon-trouble04:before {
+  content: "\e907";
+}
+.icon-trouble05:before {
+  content: "\e908";
+}
+.icon-trouble06:before {
+  content: "\e909";
+}
+.icon-trouble07:before {
+  content: "\e90a";
+}
+.icon-trouble08:before {
+  content: "\e90b";
+}
+.icon-trouble09:before {
+  content: "\e90c";
+}
+.icon-trouble10:before {
+  content: "\e90d";
+}
+.icon-trouble11:before {
+  content: "\e90e";
+}
+.icon-trouble12:before {
+  content: "\e90f";
+}
+.icon-trouble13:before {
+  content: "\e910";
+}
+.icon-trouble14:before {
+  content: "\e911";
+}
+.icon-trouble15:before {
+  content: "\e912";
+}
+.icon-trouble16:before {
+  content: "\e913";
+}
+.icon-trouble17:before {
+  content: "\e914";
+}
+.icon-trouble18:before {
+  content: "\e915";
+}
+.icon-twitter:before {
+  content: "\e916";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e91a";
+}
+
+
+
+
+
+
+
+
+
+
