@@ -1,0 +1,50 @@
+@media screen and (max-width: 740px) {
+  .subpage .title {
+    background-image: url(../img/title@sp.jpg) !important;
+  }
+}
+
+.subpage .textbox01 + .diff {
+  margin-top: -30px;
+}
+
+.subpage .textbox01 + .diff h3 {
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 740px) {
+  .subpage .textbox01 + .diff {
+    margin-top: 0px;
+  }
+  .subpage .textbox01 + .diff h3 {
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+}
+
+.subpage .gray_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.subpage .gray_box figure {
+  flex-shrink: 0;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 740px) {
+  .subpage .gray_box {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .subpage .gray_box figure {
+    flex-shrink: 0;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .subpage .gray_box figure img {
+    width: 100%;
+  }
+}

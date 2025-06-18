@@ -1,0 +1,82 @@
+@media screen and (max-width: 740px) {
+  .title {
+    background-image: url(../img/title@sp.jpg) !important;
+  }
+}
+
+.subpage .list_tabel h3 {
+  color: #6c523d;
+  font-size: 2.4rem;
+  padding-bottom: 20px;
+}
+
+.subpage .list_tabel .item em {
+  text-indent: 1.5em;
+  width: auto;
+}
+
+.subpage .list_tabel .item .text {
+  width: 100%;
+}
+
+.subpage .tax {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.subpage p a[target="_blank"] {
+  color: #acd211;
+  text-decoration: underline;
+  padding-right: 5px;
+}
+
+.subpage p a[target="_blank"]:after {
+  content: "\e91b";
+  font-family: "icomoon";
+  font-size: 1rem;
+  margin-left: 2px;
+}
+
+.subpage .small {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  display: block;
+}
+
+@media screen and (max-width: 740px) {
+  .subpage .list_tabel h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .subpage .list_tabel .item em {
+    text-indent: 0;
+    width: auto;
+  }
+  .subpage .list_tabel .item .text {
+    width: 100%;
+  }
+  .subpage .tax {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .subpage .tax img {
+    width: 222px;
+  }
+  .subpage p a[target="_blank"] {
+    color: #acd211;
+    text-decoration: underline;
+    padding-right: 5px;
+  }
+  .subpage p a[target="_blank"]:after {
+    content: "\e91b";
+    font-family: "icomoon";
+    font-size: 1rem;
+    margin-left: 2px;
+  }
+  .subpage .small {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
