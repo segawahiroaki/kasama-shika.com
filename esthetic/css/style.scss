@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import "../../common/css/function";
+
+.subpage{
+
+	@media screen and (max-width:740px)  {
+	.title{
+		background-image: url(../img/title@sp.jpg) !important;
+	}
+	}//media
+
+
+	.catch{
+		font-size: 2.8rem;
+		margin-bottom: 30px;
+		padding-left: 40px;
+		position: relative;
+
+		&:before{
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 30px;
+			height: 1px;
+			background: $green;
+		}
+
+	}
+
+	@media screen and (max-width:740px)  {
+
+	.catch{
+		font-size: 1.8rem;
+		margin-bottom: 10px;
+		padding-left: 30px;
+
+		&:before{
+			width: 20px;
+		}
+
+	}
+
+	}//media
+
+
+
+
+
+
+}//subpage

@@ -1,0 +1,33 @@
+@media screen and (max-width: 740px) {
+  .subpage .title {
+    background-image: url(../img/title@sp.jpg) !important;
+  }
+}
+
+.subpage .catch {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.subpage .catch:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 30px;
+  height: 1px;
+  background: #acd211;
+}
+
+@media screen and (max-width: 740px) {
+  .subpage .catch {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding-left: 30px;
+  }
+  .subpage .catch:before {
+    width: 20px;
+  }
+}
