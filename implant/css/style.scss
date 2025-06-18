@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import "../../common/css/function";
+
+.wide_content{
+	h3 + figure{
+		padding: 30px 0;
+	}
+}
+
+@media screen and (max-width:740px)  {
+	.title{
+		background-image: url(../img/title@sp.jpg) !important;
+	}
+}//media
+
+
+
+
+
